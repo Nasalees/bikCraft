@@ -1,0 +1,116 @@
+body {
+  background-color: #d8d7d7;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
+}
+/* Flex */
+.flex-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.flex-list a {
+  background: rgb(255, 255, 255);
+  padding: 18px 43px 18px 43px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a,
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+/* Grid */
+
+.conteudo {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+.logo {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 0px 4px 4px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Primeira linha */
+
+.introducao {
+  background-color: white;
+  padding: 40px;
+  text-align: end;
+  align-content: center;
+  position: relative;
+  display: grid;
+  gap: 20px;
+}
+
+.botao-ver-mais {
+  background-color: #ee2211;
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+  justify-self: end;
+}
+
+.detalhe {
+  width: 72px;
+  height: 4px;
+  background-color: #ee2211;
+  position: absolute;
+  top: 22px;
+  right: -36px;
+}
+
+.vantagens-bikcraft {
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: end;
+  align-self: center;
+  padding: 40px;
+}
+
+.vantagens {
+  background-color: white;
+  padding: 40px;
+}
+
+.vantagens-itens {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.vantagens-itens p {
+  grid-column: 2;
+}
+
+/* Roda Pé */
+
+.roda-pe {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+
+}
